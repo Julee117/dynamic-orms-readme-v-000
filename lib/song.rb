@@ -6,6 +6,7 @@ class Song
 
   def self.table_name
     self.to_s.downcase.pluralize
+    binding.pry
   end
 
   def self.column_names
@@ -61,3 +62,8 @@ class Song
 end
 
 p = Song.table_name
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 11ec8b34754790cffde17b31839682d7b3fba4f1
